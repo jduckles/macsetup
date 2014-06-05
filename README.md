@@ -1,7 +1,7 @@
 macsetup
 =========
 
-Quick script to run homebrew and homebrew casks on a new machine.
+Script to run homebrew and homebrew casks on a new machine.
 
 ### Usage
 * Fork the repo
