@@ -6,6 +6,8 @@ BREWLIST=https://raw.githubusercontent.com/jduckles/macconfig/master/brews
 
 installbrew() {
     hash brew 2>/dev/null || { ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)";}
+    brew tap caskroom/cask
+    brew install caskroom/cask/brew-cask
 }
 
 brews() {
