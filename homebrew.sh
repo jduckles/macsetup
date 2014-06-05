@@ -5,8 +5,7 @@ APPSLIST=https://raw.githubusercontent.com/jduckles/macconfig/master/apps
 BREWLIST=https://raw.githubusercontent.com/jduckles/macconfig/master/brews
 
 installbrew() {
-    hash brew 2>/dev/null || { ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"}
-
+    hash brew 2>/dev/null || { ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)";
 }
 
 brews() {
