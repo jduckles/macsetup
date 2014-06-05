@@ -10,3 +10,5 @@ Quick script and list of apps to install by default on new Mac OS X machines I u
 * Edit `apps` for binary apps from homebrew cask you want installed
 * Upldate links at top of `homebrew.sh`
 * Make some coffee, relax
+
+Note: Setup may not be entirely automated as xcode may have to download and some tools may need a root password to be installed 
